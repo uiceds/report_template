@@ -1,6 +1,6 @@
 # CEE 492 Final Report Document
 
-## To Write the Report in VS Code
+## To write the report in VS Code
 
 1. Click on the "Extensions" item (which looks like four boxes, with one of the boxes at an angle) in the panel on the left side of the VS Code window.
 2. Search for "typst" in the extensions marketplace search bar to the top left part of the window.
