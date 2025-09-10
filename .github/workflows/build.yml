@@ -11,3 +11,7 @@ jobs:
         with:
             name: report
             path: cee492_report.pdf
+      - name: Add artifact link to summary
+        run: |
+            echo "### 📄 Generated PDF" >> $GITHUB_STEP_SUMMARY
+            echo "[Download PDF here](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}#artifacts)" >> $GITHUB_STEP_SUMMARY
