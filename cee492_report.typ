@@ -39,7 +39,7 @@ To add figures to your report, save the image file in the `figures` folder and u
 
 #figure(
   image("figures/proof-read.png", width: 80%),
-  caption: [A humble request.],
+  caption: [A humble request. (Copyright: University of the Fraser Valley.)],
 ) <proofread>
 
 === First Subsubsection
