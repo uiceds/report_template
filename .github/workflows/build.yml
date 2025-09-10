@@ -9,5 +9,5 @@ jobs:
       - run: typst compile cee492_report.typ cee492_report.pdf
       - uses: actions/upload-artifact@v4
         with:
-            name: report
+            name: cee 492 report pdf
             path: cee492_report.pdf
