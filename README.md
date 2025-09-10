@@ -11,6 +11,8 @@
 7. The preview should automatically update as you edit the file.
 8. If it's not working, click on the "Problems" tab in the menu at the bottom of VS Code, which will show any errors encountered while trying to render the document, as well as typos and things like that.
 
+For detailed information about report formatting, refer to https://typst.app/docs/reference.
+
 ## To download the report:
 
 1. Go to the [github actions results page](../../actions/workflows/build.yml).
