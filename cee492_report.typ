@@ -83,7 +83,7 @@ You can create numbered lists using numbers followed by a period:
 
 == Equations
 
-You can create equations using `$` symbols for inline equations and `$$` symbols for display equations. For example, the inline equation $E=m c^2$ is written using single dollar signs, while the display equation below is written using double dollar signs:
+You can create equations using `$` symbols. For example, you can make an inline equation like this $E=m c^2$ or a displayed equation like this:
 
 $ x < y => x gt.eq.not y $ <eq1>
 
