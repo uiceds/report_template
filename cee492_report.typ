@@ -64,16 +64,16 @@ You can reference the table like this: @table-example.
 
 == Various Text Formatting Options
 
-You can make text _italic_ by surrounding it with `_` symbols, *bold* by surrounding it with `*` symbols, and _*bold italic*_ by combining both. You can also use `#code` to format inline code snippets.
+You can make text _italic_ by surrounding it with `_` symbols, *bold* by surrounding it with `*` symbols, and _*bold italic*_ by combining both. You can format `inline code snippets` by surrounding them with backtick (\`) characters.
 
-You can create bullet point lists using `-` or `*` symbols:
+You can create bullet point lists using `-` symbols:
 - Bullet point 1
 - Bullet point 2
   - Sub bullet point 1
   - Sub bullet point 2
 
 
-You can create numbered lists using numbers followed by a period:
+You can create numbered lists using numbers followed by a period (or using `+` symbols, which number the items for you):
 1. First item
 2. Second item
   1. Sub item 1

@@ -1,0 +1,6 @@
+# Rendered output (build it with the GitHub Action, don't commit it)
+*.pdf
+
+# Editor / OS cruft
+.DS_Store
+.vscode/
