@@ -6,7 +6,7 @@ jobs:
   render-report:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       # charged-ieee typesets in TeX Gyre Termes/Cursor, which the GitHub runner
       # image does not ship. Without these the PDF silently falls back to
       # Typst's default fonts and is not in the IEEE style.
@@ -15,7 +15,10 @@ jobs:
         with:
           typst-version: v0.15.1
       - run: typst compile cee492_report.typ cee492_report.pdf
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v7
         with:
-            name: cee 492 report pdf
+            # archive: false uploads the PDF directly, so downloading it gives
+            # you the PDF rather than a zip file you have to unpack. The
+            # artifact is then named after the file: cee492_report.pdf
+            archive: false
             path: cee492_report.pdf

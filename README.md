@@ -18,6 +18,6 @@ For detailed information about report formatting, refer to https://typst.app/doc
 
 1. Go to the [github actions results page](../../actions/workflows/build.yml).
 2. Click on the top link under the part of the page that says "Render Report".
-3. Click the link that says "cee 492 report pdf" under the section that says "Artifacts"
+3. Click the link that says "cee492_report.pdf" under the section that says "Artifacts"
 
 A new build starts every time you push. You can also start one yourself without pushing: on the [github actions results page](../../actions/workflows/build.yml), click "Run workflow".
